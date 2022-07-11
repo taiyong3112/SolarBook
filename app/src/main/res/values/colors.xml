@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primary_color">#076BBA</color>
     <color name="secondary_color">#158DEC</color>
-    <color name="bottom_nav_selected">#FFC107</color>
+    <color name="bottom_nav_selected">#076BBA</color>
+    <color name="txt_color">#394556</color>
 </resources>
