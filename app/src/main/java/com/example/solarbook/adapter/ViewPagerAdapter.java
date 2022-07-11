@@ -1,14 +1,14 @@
-package com.example.solarbook.adapters;
+package com.example.solarbook.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.example.solarbook.fragments.AccountFragment;
-import com.example.solarbook.fragments.CategoryFragment;
-import com.example.solarbook.fragments.HomeFragment;
-import com.example.solarbook.fragments.NewsFragment;
+import com.example.solarbook.fragment.AccountFragment;
+import com.example.solarbook.fragment.CategoryFragment;
+import com.example.solarbook.fragment.HomeFragment;
+import com.example.solarbook.fragment.NewsFragment;
 
 public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
