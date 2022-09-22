@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "891458189864",
+    "project_id": "solarbook-f9da3",
+    "storage_bucket": "solarbook-f9da3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891458189864:android:a6b397c83780e0a304531d",
+        "android_client_info": {
+          "package_name": "com.example.projectfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891458189864-6sbhhtdar95tve0curv5rmpqkk1f3hbp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projectfinal",
+            "certificate_hash": "fff659101a0115e5fa9755eb58fb788df47bf203"
+          }
+        },
+        {
+          "client_id": "891458189864-icmb10r3fl55sdh0ua6a976blrf3vjgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiWTe0AcSx_rcKzzioMiAM7w2DW8pvNS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891458189864-icmb10r3fl55sdh0ua6a976blrf3vjgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

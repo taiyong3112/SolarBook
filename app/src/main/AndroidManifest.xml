@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.projectfinal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SolarBook"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activity.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SearchByName"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BookByCategory"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.UpdateBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.UpdateCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.UpdatePublisherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ConfirmEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AddBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AdminUpdateAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AdminAddAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AddPublisherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AddCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AddNewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AdminNewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.NewsDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.UpdateNewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AdminCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AdminPublisherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AdminBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AdminAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.NewsDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BookDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AdminUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

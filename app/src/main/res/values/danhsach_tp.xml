@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lstCity">
+        <item>Hà Nội</item>
+        <item>Hải Phòng</item>
+        <item>Thái Bình</item>
+        <item>Nam Định</item>
+        <item>Hà Nam</item>
+    </string-array>
+
+</resources>
